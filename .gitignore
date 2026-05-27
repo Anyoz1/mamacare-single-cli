@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets/config
+.env
+.env.*
+!.env.example
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Local browser / CDP / debug artifacts
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.html
+*_state.json
+*_messages.json
+
+# Project private/generated data
+/data/**
+!/data/
+!/data/.gitkeep
+!/data/raw/
+!/data/raw/.gitkeep
+!/data/queue/
+!/data/queue/.gitkeep
+!/data/final/
+!/data/final/.gitkeep
+!/data/rejected/
+!/data/rejected/.gitkeep
+!/data/debug/
+!/data/debug/.gitkeep
+
+# Databases / backups / datasets
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+*.bak
+*_backup.json
+*_backup.jsonl
+single_dataset*.json
+mamacare_single_turn*.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
