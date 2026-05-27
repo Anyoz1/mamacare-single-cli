@@ -240,4 +240,4 @@ Extraction debug text is written to `data/debug/latest_page_text.txt` when the
 answer is uncertain. Batch errors are appended to `data/debug/errors.log`.
 Failed batch records remain queued; only records with a saved final JSONL row are
 marked answered in the queue.
-# mamacare-single-cli
+
